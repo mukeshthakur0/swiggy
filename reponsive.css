@@ -1,17 +1,14 @@
 @media only screen and (max-width: 480px){
    .navbar{
-    text-align: center;
-  height: 6.5em;
-         background-color: rgb(0, 0, 0);
+      text-align: center;
+      height:15vh;
+     background-color: rgb(0, 0, 0);
    }
- a{
-   padding: 5em ;
- }
+
   
 
   body{
-    margin: 0 auto;
-    padding: 0 auto;
+overflow-y: hidden;
     background-color: rgb(241, 213, 213);
     font-size: 1em;
   }
@@ -24,18 +21,22 @@
   
   }
   .img{
-    height: 60vh;
-    border-radius: 50%;
-    background-color: rgb(255, 238, 0);
+    margin: 0 auto;
+   margin-left: 1.3em;
+    width: 90vw;
+    height: 50vh;
+    border-radius: 100%;
+    background-color: rgb(255, 234, 0);
 }
 .home-img{
-margin-left: 2em;
+position: center;
     border-radius: 100%;
    background-color: rgba(252, 244, 9, 0.865);
-    height: 60vh;
-    width: 50vh;
+    height: 50vh;
+    width: 90vw;
 }
   h1{
+    margin: 0;
     text-align: center;
     margin-top: 1em;
     font-size: 2em;
@@ -47,6 +48,7 @@ margin-left: 2em;
     text-align: center;
 }
 .btn{
+  position: sticky;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
    height: 4em;
@@ -57,7 +59,7 @@ margin-left: 2em;
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
     border-style: none;
-    margin-left: 7em;
+    margin-left: 6em;
 }
 .btn:hover{
     font: 1.3em;
